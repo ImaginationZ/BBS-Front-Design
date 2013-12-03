@@ -1,0 +1,47 @@
+/*! 
+ *Zen. Design.
+ *Specially for bbs.sjtu.edu.cn
+ *
+ *Cpoyright 2013 Zen.
+ *Licensed under the Apache License v2.0
+ *http://izeng.me
+ */
+ 
+ /* @group Body Style */
+ 
+body {
+ 
+}
+
+/* @end */
+
+/* @group Header Style */
+
+
+
+/* @end */
+
+/* @group Main Style */
+
+.post-wrapper {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.post-wrapper .post-title{
+ 
+}
+
+.post {
+ 
+}
+
+/* @end */
+
+/* @group Untitled Group */
+
+
+
+/* @end */
