@@ -7,7 +7,7 @@
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.2/css/bootstrap.min.css">
-    <!--End Bottstrap-->
+    <!--End Bootstrap-->
     
     <!--Font Awesome-->
     <link href="http://cdn.bootcss.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
@@ -26,126 +26,121 @@
   </head>
   
   <body>
-    <!--Topbar-->
-    <nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
-        <div class="navbar-header">
-            
-        </div>
-        
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#">1</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!--End Topbar-->
-    
-    <!--Content-->
-    <div class="container">
-        <div class="row">
-            Left Bar
-            <div class="col-md-2">
-                <ul class="nav">
-                    <li class="active"><a href="#">讨论区首页</a></li>
-                    <li><a href="#">精华公布栏</a></li>
-                    <li><a href="#">热门讨论区</a></li>
-                    <li><a href="#">导读</a></li>
-                    <li><a href="#">个人工具箱</a></li>                   
-                </ul>
-            </div>
-            <!--End Left Bar-->
-            
-            <!--Center Content-->
-            <div class="col-md-7">                
-                <!--Posts-->
-                <div class="post-container">
-                    <!--Post Content-->
-                    <div class="post-entry">
-                        <header>
-                            <h3 class="post-title">
-                                这是一个标题
-                            </h3>
-                        </header>
-                        <div class="entry-container">
-                            <a href="#" class="avatar medium border" >
-                                <img src="img/avatar.jpg" alt="avatar" />
-                            </a>
-                            <div class="post-body">
-                                <div class="post-author">
-                                    <a href="#" class="username">路人</a>
-                                </div>
-                                <div class="post-content">
-                                    <p>lalalalalalalalala</p>
-                                    <p>喵喵喵</p>
-                                </div>
-                                <div class="timestamp">
-                                发表于2013年2月30日 最后更新于2年前
-                                </div>
-                            </div>
+      <!--Content-->
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-9 col-sm-offset-3 post-list">
+                  <!--Post-->
+                    <div class="post clearfix">
+                        <div class="post-img">
                         </div>
-                    </div>
-                    <!--End Post Content-->
-                    <!--Post Response-->
-                    <ul class="response-wrapper">
-                        <li>
-                            <div class="response-entry">
-                                <div class="entry-container">
-                                    <a href="#" class="avatar medium border" >
-                                        <img src="img/avatar.jpg" alt="avatar" />
+                        <div class="post-content col-md-7 col-sm-9">
+                            <div class="post-title row">
+                                <i class="fa fa-pencil fa-2x pull-left fa-border"></i>
+                                <h2>帖子标题</h2>
+                            </div>
+                            <div class="post-words">
+                                <p>我来组成正文</p>
+                            </div>
+                            <ul class="post-meta icons">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-calendar"></i>
+                                        Sept 9, 2014
                                     </a>
-                                    <div class="post-body">
-                                        <div class="post-author">
-                                            <a href="#" class="username">路人</a>
-                                        </div>
-                                        <div class="post-content">
-                                            <p>lalalalalalalalala</p>
-                                            <p>喵喵喵</p>
-                                        </div>
-                                        <div class="timestamp">
-                                        发表于2013年2月30日 最后更新于2年前
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div class="comment-entry"></div>
-                        </li>
-                    </ul>
-                    <!--End Post Response-->
-                </div>
-                <!--End Posts-->
-                <!--Paginator-->
-                <div class="post-paginator">            
-                    <ul class="pager">
-                      <li><a href="#">&larr; Older</a></li>
-                      <li><a href="#">Newer &rarr;</a></li>
-                    </ul>
-                </div>
-                <!--End Paginator-->
-            </div>
-            <!--End Center Content-->
-            
-            <!--Right Bar-->
-            <div class="col-md-3">
-                <div class="right-sidebar-container">
-                    <div class="cell new-post">
-                        <a href="#" class="btn btn-primary">
-                            <span class="fa fa-plus"></span>
-                            发布帖子
-                        </a>
-                    </div>
-                    <div class="cell search">
-                        <div class="input-group margin-bottom-sm">
-                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                            <input type="text" class="form-control" placeholder="搜索相关帖子">
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-share"></i>
+                                        140次浏览
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-comment"></i>
+                                        3条回复
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!--End Right Bar-->
-        </div>
-    </div>
-    <!--End Content-->
+                  <!--End Post-->
+                  <!--Comment-->
+                  <div class="col-sm-9">
+                      <ol class="comment-list clearfix">
+                          <li>
+                              <div class="comment">
+                                  <div class="avatar">
+                                      <img src="img/avatar" alt="" />
+                                  </div>
+                                  <div class="comment-info">
+                                      <div class="comment-meta">
+                                          <span class="author"><strong>路人</strong></span>
+                                          <span class="reply">
+                                              <a href="#" title="Reply">
+                                                  <i class="fa fa-reply"></i>
+                                              </a>
+                                          </span>
+                                          <span class="date">Sept 32, 2014</span>
+                                      </div>
+                                      <div class="comment-content">
+                                          <p>楼主好人一生平安</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="comment">
+                                  <div class="avatar">
+                                      <img src="img/avatar" alt="" />
+                                  </div>
+                                  <div class="comment-info">
+                                      <div class="comment-meta">
+                                          <span class="author"><strong>路人</strong></span>
+                                          <span class="reply">
+                                              <a href="#" title="Reply">
+                                                  <i class="fa fa-reply"></i>
+                                              </a>
+                                          </span>
+                                          <span class="date">Sept 32, 2014</span>
+                                      </div>
+                                      <div class="comment-content">
+                                          <p>楼主好人一生平安</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <ol class="child-list">
+                                  <li>
+                                      <div class="comment">
+                                          <div class="avatar">
+                                              <img src="img/avatar" alt="" />
+                                          </div>
+                                          <div class="comment-info">
+                                              <div class="comment-meta">
+                                                  <span class="author"><strong>路人</strong></span>
+                                                  <span class="reply">
+                                                      <a href="#" title="Reply">
+                                                          <i class="fa fa-reply"></i>
+                                                      </a>
+                                                  </span>
+                                                  <span class="date">Sept 32, 2014</span>
+                                              </div>
+                                              <div class="comment-content">
+                                                  <p>楼主好人一生平安</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                              </ol>
+                          </li>  
+                      </ol>
+                  </div>
+                  <!--End Comment-->
+              </div>
+          </div>
+      </div>
+      
+      <!--End Content-->
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
